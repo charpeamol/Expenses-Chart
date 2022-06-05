@@ -1,0 +1,64 @@
+* {
+    margin: 0;   
+    padding: 0;
+  }
+  body{
+      background-color: #F8E9DD;
+      width: 1440px;
+      height: 1024px;
+  }
+  .pricebar{
+      height: 660px;
+      width: 540px;
+      margin:182px 450px;
+  }
+  .header{
+    height: 125px;
+    width: 540px;
+    background-color:#EC755D;
+    margin:182px 450px;
+    border-radius: 20px;
+
+  }
+  .img-logo{
+      margin-left: 428px;
+      margin-top: 36px;
+  }
+  .balance{
+position: absolute;
+    width: 96px;
+    height: 23px;
+     margin-right: 100px;
+    /* Body */
+    margin-top: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+   left: 26%;
+   top: 22%;
+    color: #FFFFFF;
+ 
+  }
+  .myBalance{
+    position: absolute;
+    width: 117px;
+    height: 42px;
+    left: 26%;
+    top: 25%;
+    
+    /* Heading (L) */
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+    
+    
+    /* Card White */
+    
+    color: #FFFBF6;
+  }
