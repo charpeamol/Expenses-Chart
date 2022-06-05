@@ -7,25 +7,29 @@
       width: 1440px;
       height: 1024px;
   }
-  .pricebar{
-      height: 660px;
-      width: 540px;
-      margin:182px 450px;
-  }
   .header{
     height: 125px;
     width: 540px;
     background-color:#EC755D;
     margin:182px 450px;
     border-radius: 20px;
+    display: flex;
 
   }
+  .pricebar{
+    display: flex;
+    flex-direction: column;
+  }
   .img-logo{
-      margin-left: 428px;
+     
       margin-top: 36px;
+      margin-left: 424px;
+
+      margin-right: 20px;
+      position: absolute;
+    
   }
   .balance{
-position: absolute;
     width: 96px;
     height: 23px;
      margin-right: 100px;
@@ -36,17 +40,15 @@ position: absolute;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-   left: 26%;
-   top: 22%;
     color: #FFFFFF;
+    margin-left:33px;
+      margin-top: 36px;
+      position: absolute;
  
   }
   .myBalance{
-    position: absolute;
     width: 117px;
     height: 42px;
-    left: 26%;
-    top: 25%;
     
     /* Heading (L) */
     
@@ -55,10 +57,234 @@ position: absolute;
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
+    margin-left: 32px;
+      margin-top: 66px;
     /* identical to box height */
-    
     
     /* Card White */
     
     color: #FFFBF6;
+    position: absolute;
   }
+.main{
+  position: absolute;
+  width: 540px;
+  height: 511px;
+  top: 331px;
+  left: 450px;
+  background-color: #FFFBF6;
+  display: flex;
+}
+.spending{
+  position: absolute;
+  width: 350px;
+  height: 42px;
+  left: calc(50% - 350px/2 - 55px);
+  top: calc(50% - 42px/2 - 202.5px);
+  
+  /* Heading (L) */
+  
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height */
+  
+  
+  /* Dark Brown */
+  
+  color: #382314;
+}
+.monday{
+
+height: 50px;
+width:50px;
+margin-left: 38px;
+margin-top: 291px;
+
+/* Red */
+
+background: #EC755D;
+border-radius: 5px;
+position: absolute;
+}
+.tuesday{
+  margin-left:105px;
+  margin-top: 242px;
+height: 100px;
+width: 50px;
+/* Red */
+
+background: #EC755D;
+border-radius: 5px;
+position: absolute;
+}
+.Wednesday{
+  position: absolute;
+  height: 150px;
+  width: 50px;
+left: 32.20%;
+right: 59.41%;
+top: 37.50%;
+bottom: 15.73%;
+
+/* Cyan */
+
+background: #76B5BC;
+border-radius: 5px;
+}
+.Thursday{
+  position: absolute;
+  height: 89px;
+  width: 50px;
+left: 44.48%;
+right: 44.59%;
+top: 49.27%;
+bottom: 15.73%;
+
+/* Red */
+
+background: #EC755D;
+border-radius: 5px;
+}
+.Friday{
+  position: absolute;
+  height: 67px;
+  width: 50px;
+left: 56.3%;
+right: 29.76%;
+top: 53.63%;
+bottom: 15.73%;
+
+/* Red */
+
+background: #EC755D;
+border-radius: 5px;
+}
+.Saturday{
+  position: absolute;
+  height: 124px;
+  width: 50px;
+margin-left: 68.05%;
+
+margin-top: 40.61%;
+
+/* Red */
+
+background: #EC755D;
+border-radius: 5px;
+}
+.Sundey{
+  position: absolute;
+left: 78.95%;
+right: 0.11%;
+top: 52.50%;
+bottom: 15.73%;
+height: 73px;
+width: 50px;
+/* Red */
+
+background: #EC755D;
+border-radius: 5px;
+}
+.daytext{
+    margin-left: 46px;
+    margin-top: 340px;
+    height: 20px;
+    /* Mini Caption */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Medium Brown */
+
+    color: #92857A;
+
+}
+.rectangle{
+  position: absolute;
+  height: 2px;
+  width: 460px;
+left: 7.41%;
+right: 7.41%;
+top: 77.49%;
+bottom: 31.12%;
+
+/* Light Brown */
+
+background: #F8E9DD;
+border-radius: 1px;
+}
+.total{
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+/* Medium Brown */
+position: absolute;
+top:422px;
+left: 39px;
+color: #92857A;
+
+}
+.expense_value{
+  position: absolute;
+width: 184px;
+height: 62px;
+left: 39px;
+top: 437px;
+
+/* Heading (XL) */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+
+/* Dark Brown */
+
+color: #382314;
+
+}
+.Pecentage_increase{
+  position: absolute;
+width: 53px;
+height: 23px;
+left: 429px;
+top: 447px;
+
+/* Body (Bold) */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+text-align: right;
+
+/* Dark Brown */
+
+color: #382314;
+}
+.Prevous_month{
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+/* Medium Brown */
+position: absolute;
+top: 471px;
+left: 369px;
+color: #92857A;
+}
